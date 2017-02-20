@@ -1,3 +1,5 @@
+image::treehouse.png[link="https://teamtreehouse.com/library/angularjs-3"]
+
 This section displays the code developed during the https://teamtreehouse.com/library/angularjs-3[Treehouse AngularJS course].
 During that course an AngularJS application is developed. The application is a todo list manager.
 
