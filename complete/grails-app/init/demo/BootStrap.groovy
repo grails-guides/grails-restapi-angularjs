@@ -13,6 +13,7 @@ class BootStrap {
                 [name: 'swim']
         ].each { new Todo(name: it.name).save() }
 
+        //new Todo(name: 'clean the house').save(failOnError: true)
     }
     def destroy = {
     }

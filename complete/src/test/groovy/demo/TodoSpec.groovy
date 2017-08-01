@@ -1,10 +1,9 @@
 package demo
 
-import grails.test.mixin.TestFor
 import spock.lang.Specification
+import grails.testing.gorm.DomainUnitTest
 
-@TestFor(Todo)
-class TodoSpec extends Specification {
+class TodoSpec extends Specification implements DomainUnitTest<Todo> {
 
     void "test name is required"() {
         when:
