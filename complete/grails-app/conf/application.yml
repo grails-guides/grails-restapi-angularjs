@@ -111,6 +111,8 @@ environments:
                 jdbcInterceptors: ConnectionState
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
 ---
+# tag::cmpYmlP1[]
 grails:
     cors:
         enabled: true
+# end::cmpYmlP1[]
